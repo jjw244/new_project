@@ -1,6 +1,8 @@
 def greeting
-  puts "Hello World"
-  puts 'Goodbye world!'
+    greetings = ["Hello world!", "Goodbye world!"]
+    greetings.each do |greeting|
+        puts greeting
+    end
 end
 
 greeting
